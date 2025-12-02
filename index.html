@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMEDURCAL</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: url("https://blogger.googleusercontent.com/img/a/AVvXsEhvZEx_Csh9wG-69EjSFdONHFT3Fc0CdSQSILNnh0r1KCzbJOVTbGPStL2lUpXUlnSgxGqYJXFRukZOqbwMxN0QtC-zfubim3xp7tbA_hmHO6vBKt4S0M_PVZkHSB3rI95b4wo80ntYIeLsEAHY5EMpL-bG-HFHTlYG2V88_ckiMolIKDCXBS9KBeZNydw") no-repeat center center;
+            background-size: contain;
+            background-position: center;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #ff5e57;
+        }
+
+        nav {
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff5e57;
+            color: white;
+        }
+
+        /* CONTENEDOR PRINCIPAL */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 30px;
+            gap: 30px;
+        }
+
+        /* TARJETAS COMO BOTONES */
+        .article-button {
+            display: block;
+            width: 30%;
+            background-color: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+        }
+
+        .article-button:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .article-button img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .article-button h2 {
+            color: #333;
+            padding: 15px;
+            font-size: 1.5rem;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        .article-button p {
+            padding: 15px;
+            color: #555;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        h2.section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 30px;
+            color: #222;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>GAMEDURCAL</h1>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <a href="ascesorios.html">Ascesorios</a>
+        <a href="catalogo-juegos.html">Catálogo</a>
+        <a href="donde-estamos.html">¿Dónde Nos encontramos?</a>
+        
+    </nav>
+
+    <!-- Contenido principal -->
+    <h2 class="section-title">Tu tienda gamer favorita</h2>
+
+    <div class="container">
+
+        <!-- BOTÓN 1 -->
+        <a href="ascesorios.html" class="article-button">
+            <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2024/08/perifericos-gaming-3860923.jpg?tf=1200x" alt="Accesorios gamer">
+            <h2>Ascesorios</h2>
+            <p>Mejores accesorios para tu setup.</p>
+        </a>
+
+        <!-- BOTÓN 2 -->
+        <a href="catalogo-juegos.html" class="article-button">
+            <img src="https://esportsnoticiaslatam.com/wp-content/uploads/2024/04/videojuegos_862x485.png" alt="Catálogo de juegos">
+            <h2>Catálogo</h2>
+            <p>Perfectos para pasar un buen rato y enfrentarse a desafíos.</p>
+        </a>
+
+        <!-- BOTÓN 3 -->
+        <a href="donde-estamos.html" class="article-button">
+            <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj6oJejE22gRqDAwTO61ADcro9eoXgksywkA0xsfW_9lYsTZx8qojia77YK81kywqabK_ZHkrsIsPDQlXIxy4m8vY8jNAEAVrQKaa96MbcFjwc4L_ZPCPPu185sSvdVSsInLoFdZ7dZpZPCBBe6Cd10VYjDzd9u2n-FzlCh5T7JWJQwQ5vUZ9iV9RCORSc" alt="Gran apertura">
+            <h2>Gran Apertura</h2>
+            <p>¡Bienvenidos a nuestro nuevo espacio dedicado a gamers!</p>
+        </a>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 GAMEDURCAL - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
